@@ -1,0 +1,54 @@
+html {
+  font-size: 100%
+  line-height: 1.15 serif;
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+  }
+
+#banner h1 {
+  font-size: 5em;
+  text-align: center;
+  color: #000;
+  background-color: #fff;
+  padding: .5em 0;
+  }
+
+#banner h2 {
+  font-size: 2em;
+  text-align: center;
+  color: #000;
+  background-color: #f5e7d7;
+  padding: .5em 0;
+  }
+
+# why-root-veggies {
+font-size: 100%
+  line-height: 1.15 serif;
+}
+
+ body {
+   font-family: Letter Gothic Std, serif; thin
+   margin: 0;
+   font-size: 1.5em;
+  text-align: center;
+  color: #000;
+  background-color: #f5e7d7;
+  padding: 0 0 0 0;
+  }
+
+.framework {
+  width: 90%;
+  max-width: 60em;
+  margin: 1em, auto;
+  }
+
+
+
+
+
+
+
+
+
+
+
