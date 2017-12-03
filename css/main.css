@@ -1,8 +1,8 @@
 html {
-  font-size: 100%
+  font-size: 100%;
   line-height: 1.15 serif;
-    -ms-text-size-adjust: 100%;
-    -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
   }
 
  body {
@@ -21,6 +21,19 @@ html {
   margin: 1em auto;
   }
 
+figure {
+  margin: 0;
+  }
+
+/* flexible images */
+
+img {
+  width: auto;
+  max-width: 100%;
+  height: auto;
+  vertical-align: middle;
+  }
+
 #banner h1 {
   font-size: 5em;
   text-align: center;
@@ -37,9 +50,69 @@ html {
   padding: .5em 0;
   }
 
-#why-root-veggies {
-  font-size: 100%
+#why-root-veggies h3 {
+  font-size: 100%;
   line-height: 1.15 serif;
+}
+
+#why-root-veggies p {
+  }
+
+.gallery {
+  list-style: none;
+  padding-left: 0;
+  }
+
+.gallery .square {
+  height: 0;
+  padding-bottom: 74%;
+  overflow: hidden;
+  border: 1px solid #000;
+  }
+
+
+/* layout for wider screens */
+
+@media (min-width: 48em) {
+
+/* layout with with columns */
+
+.gallery-4-items {
+  columns: 2;
+  column-gap: 1em;
+  }
+
+}
+
+@media (min-width: 60em) {
+
+/* layout with with columns */
+
+.gallery-4-items {
+  columns: 4;
+  column-gap: 1em;
+  }
+
+/* layout with floats */
+
+/* gallery for 4 items, 25% each; 3 gaps @ 2% = 6%, 100% - 6% = 94%, 94% / 4 images = 23.5% */
+
+/*
+.gallery-4-items li {
+  float: left;
+  width: 23.5%;
+  margin-left: 2%;
+  }
+ */
+
+/* remove the first gap */
+
+/*
+.gallery-4-items li:first-child {
+  margin-left: 0;
+  }
+ */
+
 }
 
 
