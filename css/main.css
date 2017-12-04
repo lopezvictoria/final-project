@@ -1,3 +1,5 @@
+26d8ce1
+
 html {
   font-size: 100%;
   line-height: 1.15 serif;
@@ -50,12 +52,19 @@ img {
   padding: .5em 0;
   }
 
+#why-root-veggies {
+
+  }
+
 #why-root-veggies h3 {
   font-size: 100%;
   line-height: 1.15 serif;
 }
 
 #why-root-veggies p {
+  text-align: left;
+  columns: 3 16em;
+  column-gap: 1.5em;
   }
 
 .gallery {
@@ -63,13 +72,21 @@ img {
   padding-left: 0;
   }
 
+.gallery figure {
+  display: inline-block;
+  }
+
 .gallery .square {
   height: 0;
-  padding-bottom: 74%;
+  padding-bottom: 100%;
   overflow: hidden;
   border: 1px solid #000;
   }
 
+
+section p {
+  text-align: left;
+}
 
 /* layout for wider screens */
 
