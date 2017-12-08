@@ -8,6 +8,10 @@ html {
   }
 
  body {
+  scroll-behavior: smooth;
+  }
+
+ body {
   font-family: Letter Gothic Std, serif; thin
   margin: 0;
   font-size: 1.5em;
@@ -87,6 +91,45 @@ img {
 section p {
   text-align: left;
 }
+
+
+/* back to top / link */
+
+/* # = id = unique, specific */
+/* . = class = general, reusable, repeatable */
+
+#top {
+  position: fixed;
+  bottom: 1em;   /* moved back to top circle up 1em from the bottom  edge  */
+  right: 1em;    /* moved back to top circle in 1em from the right edge  */
+  opacity: .5;   /* made the back to top circle transparent */
+  }
+
+#top .circle {
+  display: inline-block; /* give it block properties: width/height */
+  position: relative; /* keeps the triangle in the circle */
+  width: 2em;
+  height: 2em;
+  background: #ccc;
+  border: 1px solid #000;
+  border-radius: 50%; /* rounded corners to make circle */
+  }
+
+#top .triangle {
+  position: absolute;
+  top: -.15em;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  border: .5em dashed transparent; /* black square drawn solely by border */
+  border-top: 0;
+  border-bottom: 1em solid #000; /* triangle */
+  overflow: hidden;
+  margin: auto; /* vertical and horizontal centered since the width and height is defined and top/bottom/left/right */
+  }
 
 /* layout for wider screens */
 
