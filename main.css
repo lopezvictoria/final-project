@@ -91,22 +91,6 @@ section p {
 /* # = id = unique, specific */
 /* . = class = general, reusable, repeatable */
 
-#like .circle {
-  display: inline-block; /* give it block properties: width/height */
-  position: relative; /* keeps the triangle in the circle */
-  width: 2em;
-  height: 2em;
-  background: #ccc;
-  border: 1px solid #000;
-  border-radius: 50%; /* rounded corners to make circle */
-
-#like {
-  position: fixed;
-  top: 1em;   /* moved back to top circle up 1em from the bottom  edge  */
-  right: 1em;    /* moved back to top circle in 1em from the right edge  */
-  opacity: .5;   /* made the back to top circle transparent */
-  }
-
 
 #top {
   position: fixed;
