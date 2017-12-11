@@ -66,8 +66,9 @@ img {
   }
 
 .ingrediants p {
-  text-align: left;
-    }
+  text-align:left;
+  list-style: none;
+  }
 
 .ingrediants ol {
   list-style: none;
