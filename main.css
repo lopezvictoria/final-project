@@ -76,8 +76,9 @@ img {
   margin: 0;
   }
 
-.ingrediants {
+#ingrediants p {
   list-style: none;
+  text-align:left;
   padding-left: 0;
   }
 
