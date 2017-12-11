@@ -9,7 +9,7 @@ html {
   font-family: Letter Gothic Std, serif; thin
   margin: 0;
   font-size: 1.5em;
-  text-align: left;
+  text-align: center;
   color: #000;
   background-color: #f5e7d7;
   margin: 0;
@@ -64,6 +64,17 @@ img {
   columns: 3 16em;
   column-gap: 1.5em;
   }
+
+#beets p {
+  text-align: left;
+    }
+
+#beets ol {
+  list-style: none;
+  padding-left: 0;
+  margin: 0;
+      }
+
 
 .gallery {
   list-style: none;
