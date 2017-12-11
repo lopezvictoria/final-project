@@ -1,14 +1,8 @@
-26d8ce1
-
 html {
   font-size: 100%;
   line-height: 1.15 serif;
   -ms-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
-  }
-
- body {
-  scroll-behavior: smooth;
   }
 
  body {
@@ -92,11 +86,27 @@ section p {
   text-align: left;
 }
 
-
 /* back to top / link */
 
 /* # = id = unique, specific */
 /* . = class = general, reusable, repeatable */
+
+#like .circle {
+  display: inline-block; /* give it block properties: width/height */
+  position: relative; /* keeps the triangle in the circle */
+  width: 2em;
+  height: 2em;
+  background: #ccc;
+  border: 1px solid #000;
+  border-radius: 50%; /* rounded corners to make circle */
+
+#like {
+  position: fixed;
+  top: 1em;   /* moved back to top circle up 1em from the bottom  edge  */
+  right: 1em;    /* moved back to top circle in 1em from the right edge  */
+  opacity: .5;   /* made the back to top circle transparent */
+  }
+
 
 #top {
   position: fixed;
@@ -180,9 +190,43 @@ nav {
   text-align: left;
   }
 
+nav summary {
+  visibility: hidden;
+  position: relative;
+  width: 2em;
+  cursor: pointer;
+}
+
+nav summary:before {
+  visibility: visible;
+  display: block;
+  position: absolute;
+  top: .575em;
+  content: "";
+  width: 100%;
+  border-top: .125em solid #000;
+  z-index: 1;
+}
+
+nav summary b {
+  visibility: visible;
+  display: block;
+  position: absolute;
+  top: 0;
+  width: 0;
+  height: 0;
+  line-height: 0;
+  border-top: .125em solid #000;
+  border-bottom: .125em solid #000;
+  padding-left: 2em;
+  padding-bottom: 1em;
+  overflow: hidden;
+}
+
 nav ul {
   list-style: none;
   padding-left: 0;
+  margin: 0;
   }
 
 nav li {
@@ -219,7 +263,3 @@ nav a {
   }
 
 }
-
-
-
-
