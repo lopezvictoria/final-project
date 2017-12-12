@@ -56,13 +56,36 @@ img {
 
 #why-root-veggies h3 {
   font-size: 100%;
-  line-height: 1.15 serif;
+  line-height: 1.15em serif;
 }
 
 #why-root-veggies p {
   text-align: left;
   columns: 3 16em;
   column-gap: 1.5em;
+  }
+
+.ingrediants p {
+  text-align:left;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+
+#ingrediants ul {
+  text-align: left;
+  list-style-type: none;
+  float: left;
+  padding: 0;
+  margin: auto;
+  overflow: hidden;
+  }
+
+#ingrediants p {
+  list-style: none;
+  text-align:left;
+  padding-left: 0;
+
   }
 
 .gallery {
@@ -90,6 +113,7 @@ section p {
 
 /* # = id = unique, specific */
 /* . = class = general, reusable, repeatable */
+
 
 #top {
   position: fixed;

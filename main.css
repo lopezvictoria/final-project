@@ -56,7 +56,7 @@ img {
 
 #why-root-veggies h3 {
   font-size: 100%;
-  line-height: 1.15 serif;
+  line-height: 1.15em serif;
 }
 
 #why-root-veggies p {
@@ -67,19 +67,25 @@ img {
 
 .ingrediants p {
   text-align:left;
-  list-style: none;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
   }
 
-.ingrediants ol {
-  list-style: none;
-  padding-left: 0;
-  margin: 0;
+#ingrediants ul {
+  text-align: left;
+  list-style-type: none;
+  float: left;
+  padding: 0;
+  margin: auto;
+  overflow: hidden;
   }
 
 #ingrediants p {
   list-style: none;
   text-align:left;
   padding-left: 0;
+
   }
 
 .gallery {
