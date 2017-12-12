@@ -65,17 +65,36 @@ img {
   column-gap: 1.5em;
   }
 
-.ingrediants p {
-  text-align:left;
+
+#burdock .ingrediants p {
+
+  text-align: center;
   list-style-type: none;
   margin: 0;
   padding: 0;
   }
 
-#ingrediants ul {
+#burdock .ingrediants ul {
   text-align: left;
   list-style-type: none;
-  float: left;
+  float: center;
+  padding: 0;
+  margin: auto;
+  overflow: hidden;
+  }
+
+#beets .ingrediants p {
+
+  text-align: center;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  }
+
+#beets .ingrediants ul {
+  text-align: left;
+  list-style-type: none;
+  float: center;
   padding: 0;
   margin: auto;
   overflow: hidden;
@@ -83,9 +102,8 @@ img {
 
 #ingrediants p {
   list-style: none;
-  text-align:left;
+  text-align: center;
   padding-left: 0;
-
   }
 
 .gallery {
@@ -262,6 +280,10 @@ nav a {
 
   }
 
+#ingrediants p {
+  font-size: 1.5em;
+}
+
 @media (min-width: 60em) {
 
 
@@ -269,4 +291,7 @@ nav a {
   font-size: 6em;
   }
 
+#ingrediants p {
+  font-size: 1.5em;
+}
 }
