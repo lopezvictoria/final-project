@@ -67,7 +67,6 @@ img {
 
 
 #burdock .ingrediants p {
-
   text-align: center;
   list-style-type: none;
   margin: 0;
@@ -84,7 +83,6 @@ img {
   }
 
 #beets .ingrediants p {
-
   text-align: center;
   list-style-type: none;
   margin: 0;
@@ -100,7 +98,7 @@ img {
   overflow: hidden;
   }
 
-#ingrediants p {
+.ingrediants p {
   list-style: none;
   text-align: center;
   padding-left: 0;
@@ -280,7 +278,7 @@ nav a {
 
   }
 
-#ingrediants p {
+.ingrediants p {
   font-size: 1.5em;
 }
 
@@ -291,7 +289,7 @@ nav a {
   font-size: 6em;
   }
 
-#ingrediants p {
+.ingrediants p {
   font-size: 1.5em;
 }
 }
